@@ -100,4 +100,5 @@ You are required to submit the following for review:
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
 
-Credit to https://www.youtube.com/watch?v=duNmhKgtcsI and https://www.w3schools.com/js/
+Credit to https://www.youtube.com/watch?v=duNmhKgtcsI and https://www.w3schools.com/js/ and https://www.youtube.com/watch?v=v2jfGo7ztm8
+
