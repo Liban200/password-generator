@@ -85,21 +85,21 @@ function generatePassword() {
 
   // get input and validate
   numberOfCharacters = prompt(
-    "How many characters do you want in your password? Choose between 8-128 characters."
+     "Choose between 8-128 characters."
   );
   if (isNaN(numberOfCharacters)) {
-    numberOfCharacters = prompt("Please enter a valid number.");
+    numberOfCharacters = prompt("Enter a valid number.");
   } else if (numberOfCharacters < 8 || numberOfCharacters > 128) {
-    return "Please choose a valid number of characters.";
+    return "Choose a valid number of characters.";
   } else {
-    alert("Your password will be " + numberOfCharacters + " characters long.");
+    alert("Password will be " + numberOfCharacters + " characters long.");
   }
 
   let hasObject = {};
   if (confirm("Do you want lowercase characters?")) {
     hasObject.hasLowercase = lowercase;
   }
-  if (confirm("Do you want to use uppercase characters?")) {
+  if (confirm("Do you want uppercase characters?")) {
     hasObject.hasUppercase = uppercase;
   }
   if (confirm("Do you want numbers?")) {
